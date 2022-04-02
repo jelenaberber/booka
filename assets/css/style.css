@@ -23,7 +23,7 @@ span{
 }
 .naslovna {
     background-image: url(../img/bookastore.jpg);
-    padding: 150px 0 150px 150px;
+    padding: 150px 0 150px 50px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,7 +51,7 @@ span{
     width: 2%;
 }
 .knjiga-meseca h4{
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
 }
 .knjiga-meseca h5{
@@ -183,4 +183,17 @@ span{
 }
 .izdavaci h3{
     font-size: 18px;
+}
+
+/* mediaquery */
+@media screen and (max-width: 1000px){
+    #knjiga-meseca-text h4, #knjiga-meseca-text p{
+        text-align: center !important;
+    }
+    .knjiga-u-fokusu{
+        border-right: none !important;
+    }
+    #carouselExampleCaptions{
+        width: 300px;
+    }
 }

@@ -20,35 +20,33 @@
 <body>
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand font-weight-bold" href="index.html"><img src="assets/img/logo.png" alt="Logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="products.html">Proizvodi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">O nama</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Kontakt</a>
-          </li>
-        </ul>
-      </div>
+    <a class="navbar-brand font-weight-bold" href="#"><img src="assets/img/logo.png" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Proizvodi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">O nama</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Kontakt</a>
+        </li>
+      </ul>
     </div>
   </nav>
 </header>
 
 <main>
-  <div class="naslovna bg p-50-0 d-flex align-items-center">
+  <div class="naslovna bg d-flex align-items-center">
     <div class="container-fluid col-12">
-      <div class="container-fluid float-left text-light col-12 col-lg-5">
+      <div class="container-fluid float-left text-light col-12 col-lg-7">
         <h1>
           Bookastore
         </h1>
@@ -63,28 +61,28 @@
     <h3>Knjige u fokusu</h3>
     <span class="line m-auto d-block"></span>
     <div class="row">
-      <div class="col-6 col-lg-3 mt-5 border-muted border-right">
+      <div class="knjiga-u-fokusu col-10 col-sm-6 col-md-3 mt-5 border-muted border-right">
         <div class="img-container">
           <img src="assets/img/Polovina-koja-nedostaje.jpg" class="mh-3" alt="Polovina koja nedostaje"/>
         </div>
         <h4 class="mt-3">Polovina koja nedostaje</h4>
         <h5 class="mt-1">Brit Benet</h5>
       </div>
-      <div class="col-6 col-lg-3 mt-5 border-muted border-right">
+      <div class="knjiga-u-fokusu col-10 col-sm-6 col-md-3 mt-5 border-muted border-right">
         <div class="img-container">
           <img src="assets/img/voli_me_vise_od_svega_na_svijetu.jpg" class="mh-3" alt="Voli me vise od svega na svijetu"/>
         </div>
           <h4 class="mt-3">Voli me vise od svega na svijetu</h4>
           <h5 class="mt-1">Mira Furlan</h5>
       </div>
-      <div class="col-6 col-lg-3 mt-5 border-muted border-right">
+      <div class="knjiga-u-fokusu col-10 col-sm-6 col-md-3 mt-5 border-muted border-right">
         <div class="img-container">
           <img src="assets/img/crkni_ljubavi.jpg" class="mh-3" alt="Crkni ljubavi"/>  
         </div>
         <h4 class="mt-3">Crkni, ljubavi</h4>
         <h5 class="mt-1">Arijana Harviks</h5>
       </div>
-      <div class="col-6 col-lg-3 mt-5">
+      <div class="knjiga-u-fokusu col-10 col-sm-6 col-md-3 mt-5">
         <div class="img-container">
           <img src="assets/img/u-vrtu-ljudozdera.jpg" class="mh-3" alt="U vrtu ljudozdera"/>
       </div>
@@ -96,11 +94,11 @@
 
   <!-- knjiga meseca -->
   
-  <div class="knjiga-meseca container-fluid mt-5" id="mesec">
+  <div class="knjiga-meseca col-12 mt-5" id="mesec">
     <h3 class="text-center">Knjiga meseca</h3>
     <span class="line m-auto d-block"></span>
     <div class="row d-flex justify-content-center">
-      <div class="col-lg-5 col-10 mt-5 d-flex align-items-center flex-column my-auto text-right">
+      <div id="knjiga-meseca-text" class="p-0 col-lg-5 col-12 mt-5 d-flex align-items-center flex-column my-auto text-right">
         <h4 class="mb-4 mr-0 p-0 font-weight-bold text-right col-12">Frantumalja</h4>
         <p class="col-12 mr-0 p-0">Jedno od neizbežnih pitanja u malobrojnim intervjuima koje je tajnovita spisateljica dala jeste upravo – ko je Elena Ferante? Odgovor pruža Frantumalja, knjiga koja se sastoji od pisama, eseja i intervjua nastalih u periodu 1991–2016. Ferante – spisateljica, žena, Italijanka, majka, ćerka, prijateljica, političko biće – iskreno i bez zadrške govori o stvarima koje su bitne, jezikom i stilom koji nas je očarao u njenim knjigama.</p>
         <h5 class="col-12 text-right p-0">Elena Ferante</h5>
@@ -114,10 +112,10 @@
   </div>
 
   <!-- Napuljska tetralogija -->
-  <div class="tetralogija mt-5 bg p-50-0 d-flex text-light">
+  <!-- <div class="tetralogija col-12 mt-5 d-flex text-light"> -->
     
-    <div class="row">
-      <div class="col-10 col-lg-3 mt-4 mr-4">
+    <div class="tetralogija row d-flex justify-content-around flex-wrap">
+      <div class="col-10 col-lg-3 mt-4 mx-4">
         <h2 class="text-center mb-3 mt-4">Napuljska tetralogija</h2>
         <h3 class="text-center mb-3">Komplet 4 knjige &plus; kutija <h3>
         <h3 class="text-center ">&minus;20&percnt;</h3>
@@ -126,32 +124,35 @@
           <button type="button" class="btn naruci" data-toggle="modal" data-target="#naruciModal">Naruči odmah</button>
         </div>
       </div>
-      <div class="col-5 col-lg-2 mt-5 ml-5">
-        <div class="img-container">
-          <img src="assets/img/Moja-genijalna-prijateljica.png" alt="Moja genijalna prijateljica"/>
+      <div class="col-lg-8 col-10 d-flex justify-content-around flex-wrap">
+        <div class="col-10 col-sm-5 col-lg-3 mt-5"p->
+          <div class="img-container d-flex justify-content-center">
+            <img src="assets/img/Moja-genijalna-prijateljica.png" alt="Moja genijalna prijateljica"/>
+          </div>
+          <h4>Moja genijalna prijateljica</h4>
         </div>
-        <h4>Moja genijalna prijateljica</h4>
-      </div>
-      <div class="col-5 col-lg-2 mt-5 ">
-        <div class="img-container">
-          <img src="assets/img/Priča-o-novom-prezimenu.png" alt="Priča o novom prezimenu"/>
+        <div class="col-10 col-sm-5 col-lg-3 mt-5 p-">
+          <div class="img-container d-flex justify-content-center">
+            <img src="assets/img/Priča-o-novom-prezimenu.png" alt="Priča o novom prezimenu"/>
+          </div>
+          <h4>Priča o novom prezimenu</h4>
         </div>
-        <h4>Priča o novom prezimenu</h4>
-      </div>
-      <div class="col-5 col-lg-2 mt-5 ">
-        <div class="img-container">
-          <img src="assets/img/Priča-o-onima-koji-odlaze-i-onima-koji-ostaj.png" alt="Priča o onima koji odlaze i onima koji ostaju"/>
+        <div class="col-10 col-sm-5 col-lg-3 mt-5 p-">
+          <div class="img-container d-flex justify-content-center">
+            <img src="assets/img/Priča-o-onima-koji-odlaze-i-onima-koji-ostaj.png" alt="Priča o onima koji odlaze i onima koji ostaju"/>
+          </div>
+          <h4>Priča o onima koji odlaze i onima koji ostaju</h4>
         </div>
-        <h4>Priča o onima koji odlaze i onima koji ostaju</h4>
-      </div>
-      <div class="col-5 col-lg-2 mt-5 ">
-        <div class="img-container">
-            <img src="assets/img/Priča-o-izgubljenoj-devojčici.png" alt="Priča o izgubljenoj devojčici"/>
+        <div class="col-10 col-sm-5 col-lg-3 mt-5 p-">
+          <div class="img-container d-flex justify-content-center">
+              <img src="assets/img/Priča-o-izgubljenoj-devojčici.png" alt="Priča o izgubljenoj devojčici"/>
+          </div>
+          <h4>Priča o izgubljenoj devojčici</h4>
         </div>
-        <h4>Priča o izgubljenoj devojčici</h4>
       </div>
+      
     </div>
-  </div>
+  <!-- </div> -->
 </main>
 
 <footer>
