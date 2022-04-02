@@ -162,9 +162,25 @@ span{
     background-position: bottom;
     background-size: cover;
 } */
-.trans{
+/* .trans{
 	width: 100%;
 	height: inherit;
 	background: rgba(255, 255, 255, 0.6);
 	position: relative;
+} */
+.o-nama{
+    background-image: url(../img/bookastore.jpg);
+    padding: 150px 0 150px 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.osnivaci img{
+    width: 100%;
+}
+.izdavaci img{
+    width: 70%;
+}
+.izdavaci h3{
+    font-size: 18px;
 }
