@@ -1,0 +1,170 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+span{
+    color: #CD40E6;
+}
+.bg-light{
+    background-color: #fff !important;
+}
+.navbar-brand{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link{
+    color: black !important;
+}
+.nav-link:hover{
+    color: #CD40E6 !important;
+}
+.active{
+    color: #CD40E6 !important;
+}
+.naslovna {
+    background-image: url(../img/bookastore.jpg);
+    padding: 150px 0 150px 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.btn-info {
+    color: #fff !important;
+    background-color: #CD40E6 !important;
+}
+.u-fokusu h3{
+    text-transform: uppercase;
+}
+.u-fokusu h4{
+    font-size: 22px;
+    width: 75%;
+    margin: 0px auto;
+}
+.u-fokusu h5{
+    font-size: 15px;
+}
+.u-fokusu img{
+    max-width: 70%;
+}
+.line{
+    border-bottom: 3px solid #CD40E6;
+    width: 2%;
+}
+.knjiga-meseca h4{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.knjiga-meseca h5{
+    font-size: 20px;
+}
+.knjiga-meseca p{
+    font-size: 18px;
+}
+.tetralogija{
+    background-image: url("../img/background.jpg");
+    padding: 50px 0px 50px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tetralogija img{
+    width: 70%;
+    margin: 0px;
+}
+.tetralogija h3{
+    font-size: 22px;
+}
+.tetralogija h4{
+    font-size: 18px;
+}
+.row{
+    margin:0px;
+}
+.futer{
+    background-color: #191919;
+}
+.futer a{
+    color: #fff;
+}
+.futer h3{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.futer h4{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.futer p{
+    font-size: 14px;
+}
+.line-meni{
+    border-bottom: 3px solid #CD40E6;
+    width: 5%;
+}
+.booka{
+    text-transform: uppercase;
+}
+.kontakt h4{
+    font-size: 20px;
+}
+.kontakt h5{
+    font-size: 18px;
+}
+.kontakt a{
+    color: black;
+}
+.submit{
+    background-color: #CD40E6;
+}
+.social i{
+    color: #CD40E6;
+    font-size: 25px;
+}
+.slajder img{
+    width: 100%;
+    height: 500px;
+}
+.knjige p, .knjige h5{
+    text-align: center;
+}
+.knjige img{
+    width: 70%;
+    margin: 0px auto;
+}
+.naruci{
+    background-color: #CD40E6;
+    color: #fff;
+    margin: 0px auto;
+}
+.carousel-item h3, .carousel-item p{
+    text-align: right;
+    font-weight: bold;
+}
+.autor img{
+    width: 60%;
+    border-radius: 3%;
+}
+.autor h3{
+    text-align: left;
+}
+.autor p{
+    font-size: 18px;
+    text-align: justify;
+}
+.mreze i {
+    color: #CD40E6;
+    font-size: 25px;
+}
+/* .kontakt{
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/pozadina2.jpg");
+    background-position: bottom;
+    background-size: cover;
+} */
+.trans{
+	width: 100%;
+	height: inherit;
+	background: rgba(255, 255, 255, 0.6);
+	position: relative;
+}
