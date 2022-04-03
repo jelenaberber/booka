@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+		<loc>https://jelenaberber.github.io/booka/</loc> 
+		<lastmod>2022-04-01</lastmod>
+		<priority>0.90</priority> 
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>https://jelenaberber.github.io/booka/products.html</loc>
+		<lastmod>2022-04-01</lastmod>
+		<priority>0.85</priority>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>https://jelenaberber.github.io/booka/about.html</loc>
+		<lastmod>2022-04-01</lastmod>
+		<priority>0.80</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://jelenaberber.github.io/booka/contact.html</loc>
+		<lastmod>2022-04-01</lastmod>
+		<priority>0.75</priority>
+		<changefreq>monthly</changefreq>
+	</url>
+</urlset>
